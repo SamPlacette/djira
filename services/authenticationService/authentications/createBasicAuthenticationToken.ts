@@ -1,5 +1,5 @@
 import { Config } from '../../../utils/config.ts';
-import { encode } from 'https://deno.land/std@2.0.9/encoding/base64.ts';
+import { encode } from 'https://deno.land/std@0.209.0/encoding/base64.ts';
 
 export function createBasicAuthenticationToken(authenticationData: Config.Authentication.Basic) {
   let login;
